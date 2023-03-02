@@ -60,7 +60,7 @@ function writeFileSync(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((inquirerAnswers) => {
-        console.log("Generating.... Please wait....");
+        console.log("Your README is being created!");
         writeFileSync("./demo/README.md", generateMarkdown({ ...inquirerAnswers }));
     })
 }

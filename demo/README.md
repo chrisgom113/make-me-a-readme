@@ -1,6 +1,6 @@
-# Make Me a Readme!
+# Make Me a Readme
 
-  ![Github Mozilla License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+  ![Github Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 
   ## Description
 
@@ -44,9 +44,9 @@
 
 
   
-          Copyright © Mozilla Public License 2.0. All rights reserved. 
+          Copyright © The Unlicense. All rights reserved. 
         
-          Licensed under the Mozilla Public License 2.0 license. 
+          Licensed under the The Unlicense license. 
           
           
 
