@@ -41,7 +41,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Which license does your project have?",
-        choices: [ "MIT", "Open Software License 3.0", "The Unlicense", "ISC", "Mozilla Public License 2.0", "None" ]
+        choices: [ "MIT", "The Unlicense", "ISC", "Mozilla Public License 2.0", "None" ]
     },
     {
         type: "input",

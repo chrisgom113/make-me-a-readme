@@ -1,30 +1,38 @@
 
 function renderLicenseBadge(license) {
-    if (license !== "None") {
-        return `![GitHub license](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`
+    if (license == "MIT") {
+        return `![GitHub MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)`
+      } else if(license == "Mozilla Public License 2.0") {
+        return `![Github Mozilla License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`
+      } else if(license == "The Unlicense") {
+        return `![Github Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)`
+      }else if(license == "ISC") {
+        return `![Github ISC License](https://img.shields.io/badge/License-ISC-blue.svg)`
       }
       return ''
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
 function renderLicenseSection(license) {
     if (license !== "None") {
         return (
-          `Copyright © ${license}. All rights reserved. 
+          `
+          Copyright © ${license}. All rights reserved. 
+        
+          Licensed under the ${license} license. 
           
-          Licensed under the ${license} license.`
+          `
     
         )
       }
       return ''
 }
 
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -32,54 +40,73 @@ function generateMarkdown(data) {
 
   ## Description
 
+
   ${data.description}
 
   ## Table of Contents
 
-  * [Installation](#Installation)
 
-  * [Usage](#Usage)
+  - [Installation](#installation)
 
-  * [License](#License)
+  - [Usage](#usage)
 
-  * [Contributing](#Contributing)
+  - [License](#license)
 
-  * [Tests](#Tests)
+  - [Contributing](#contributing)
 
-  * [Questions](#Questions)
+  - [Tests](#tests)
+
+  - [Questions](#questions)
+
+
 
   ## Installation
 
-  Run the below code in the command line to download dependencies needed for project
+
+  Run the below code in the command line to download dependencies needed for project:
+
   \`\`\`
   ${data.installations}
   \`\`\`
 
+  
   ## Usage
+
 
   ${data.usage}
 
+ 
   ## License
+
 
   ${renderLicenseSection(data.license)}
 
+  
   ## Contributing
+
 
   ${data.contributors}
 
+
   ## Tests
 
+
   Run code below to test functionality:
+
 
   \`\`\`
   ${data.test}
   \`\`\`
 
+
   ## Questions
+
+    For additional questions, find me on Github or send me an email:
 
     Github: ${data.github}
 
-    For any additional questions, contact me at: ${data.email}
+    Emai: ${data.email}
+
 `;
 }
 
