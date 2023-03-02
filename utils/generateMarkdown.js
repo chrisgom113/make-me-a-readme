@@ -103,7 +103,7 @@ function generateMarkdown(data) {
 
     For additional questions, find me on Github or send me an email:
 
-    Github: ${data.github}
+    Github: [${data.github}](https://github.com/${data.github}/)
 
     Emai: ${data.email}
 
