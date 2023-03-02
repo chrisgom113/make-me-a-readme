@@ -19,7 +19,6 @@ const questions = [
         type: "input",
         name: "installations",
         message: "What (if any) dependencies need to be installed?",
-        default: "npm i"
     },
     {
       type: "input",

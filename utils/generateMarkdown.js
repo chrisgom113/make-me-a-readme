@@ -63,7 +63,7 @@ function generateMarkdown(data) {
   ## Installation
 
 
-  Run the below code in the command line to download dependencies needed for project:
+  Use 'npm i' to download the dependencies listed below:
 
   \`\`\`
   ${data.installations}
