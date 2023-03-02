@@ -12,10 +12,13 @@ https://drive.google.com/file/d/1gRHjsfgJiR4h3HY4dwi35Do4ZZh45sBF/view
 
 # Description
 
+
 This project exhaustively prompts student to draw on hastily-learned concepts of node.js, npm, third-party packages, and command line-to-file writing system interfacing. The topics are dense and abstract.
 Using starter code, student is asked to create a program that is run from the command prompt to generate questions. These questions are dynamically implementing the entered answers to a readme file. It requires the use of an index.js file as well as a separate js file that uses object-template literals to dynamically add input data to the readme file. At the end, a nice and tidy looking readme file is created that places answers from the command prompt in their appropriate section of the readme. Definitely tests the abilities of the student to learn difficult concepts and render them to realworld applications.
 
-
+```
+Note: Sample README is in 'demo' folder
+```
 
 
 # Installation
