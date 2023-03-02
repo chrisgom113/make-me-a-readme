@@ -1,6 +1,6 @@
 # test
 
-  ![Github ISC License](https://img.shields.io/badge/License-ISC-blue.svg)
+  ![GitHub MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
 
@@ -44,9 +44,9 @@
 
 
   
-          Copyright © ISC. All rights reserved. 
+          Copyright © MIT. All rights reserved. 
         
-          Licensed under the ISC license. 
+          Licensed under the MIT license. 
           
           
 
@@ -70,9 +70,9 @@
 
   ## Questions
 
-    For additional questions, find me on Github or send me an email:
+    For any questions, find me on Github or send me an email:
 
-    Github: test
+    Github: ![test](https://github.com/test/)
 
     Emai: test
 

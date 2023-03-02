@@ -101,11 +101,11 @@ function generateMarkdown(data) {
 
   ## Questions
 
-    For additional questions, find me on Github or send me an email:
+    For any questions, find me on Github or send me an email:
 
-    Github: [${data.github}](https://github.com/${data.github}/)
+    Github: https://github.com/${data.github}
 
-    Emai: ${data.email}
+    Email: ${data.email}
 
 `;
 }
