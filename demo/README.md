@@ -1,11 +1,11 @@
-# Make Me a Readme
+# Make Me a Readme!
 
   ![Github Mozilla License](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
   ## Description
 
 
-  Using command line prompts to collect data, the input data will be used to generate a high-quality readme file
+  Generate a high-quality readme file by answering questions in command line prompts
 
   ## Table of Contents
 
@@ -27,7 +27,7 @@
   ## Installation
 
 
-  Run the below code in the command line to download dependencies needed for project:
+  Use 'npm i' to download the dependencies listed below:
 
   ```
   Inquirer 8.2.4
@@ -37,7 +37,7 @@
   ## Usage
 
 
-  User enters 'node index.js' to invoke the program. User is presented with a series of questions intended to get the title, description, usage, license, contributors, tests, and questions regarding  their project
+  User invokes program by entering “node index.js” into the command line and is presented with questions. User enters the main data elements found in a typical high-quality readme file in response to the questions. Once finished, user sees a newly-generated readme file in the “demo” folder of the repository.
 
  
   ## License
@@ -54,7 +54,7 @@
   ## Contributing
 
 
-  Chris Gomez (myself)
+  Chris Gomez (self)
 
 
   ## Tests
@@ -64,7 +64,7 @@
 
 
   ```
-  npm test
+  node index.js test
   ```
 
 
