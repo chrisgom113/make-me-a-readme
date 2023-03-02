@@ -38,10 +38,10 @@ const questions = [
         default: "npm test"
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
         message: "Which license does your project have?",
-        choices: ["MIT", "Open Software License 3.0", "The Unlicense", "ISC", "Mozilla Public License 2.0", "None"]
+        choices: [ "MIT", "Open Software License 3.0", "The Unlicense", "ISC", "Mozilla Public License 2.0", "None" ]
     },
     {
         type: "input",
@@ -55,7 +55,7 @@ const questions = [
     }
 ];
 
-function writeToFile(fileName, data) {
+function writeFileSync(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
@@ -63,7 +63,7 @@ function init() {
     inquirer.prompt(questions)
     .then((inquirerAnswers) => {
         console.log("Generating.... Please wait....");
-        writeToFile("./dist/README.md", generateMarkdown({ ...inquirerAnswers }));
+        writeFileSync("./demo/README.md", generateMarkdown({ ...inquirerAnswers }));
     })
 }
 
