@@ -33,8 +33,7 @@ const questions = [
     {
         type: "input",
         name: "test",
-        message: "what command will run a test?",
-        default: "npm test"
+        message: "what command will run a test?"
     },
     {
         type: "list",
